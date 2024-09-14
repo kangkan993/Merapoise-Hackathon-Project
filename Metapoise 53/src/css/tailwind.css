@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "font1"; /* Name of the font */
+  src: url(/public/font/ApercuPro-Regular_efc32b4a-a493-4a37-8586-9bdd1dd88ccd.ttf);
+}
+
+@font-face {
+  font-family: "font2"; /* Name of the font */
+  src: url(/public/font/geograph-bold_769abb60-0752-447c-9785-bbbafeaf12c6.ttf);
+}
+
+@font-face {
+  font-family: "font3"; /* Name of the font */
+  src: url(/public/font/geograph-regular_8e9ffb2c-0e1f-4f0c-96be-aad7e378d3b3.ttf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,149 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #111c00;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav-left {
+    display: none;
+  }
+  #rli {
+    display: none;
+  }
+  #nav-mid {
+    display: flex;
+    font-size: 12px;
+  }
+}
+
+/* kangkan Animated card part */
+
+#abc::-webkit-scrollbar {
+  display: none;
+}
+
+/* Background image setup */
+
+.card-img {
+  background-size: cover;
+  background-position: center;
+}
+
+/* Image zoom effect */
+.card-img {
+  transition: transform 0.5s ease;
+}
+
+.card-img:hover {
+  transform: scale(1.1);
+  /* Slight zoom on hover */
+}
+
+/* Ensure video covers the card background */
+.video-bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures the video fills the box without distortion */
+  z-index: 0;
+  /* Puts the video behind the content */
+}
+
+/* ranjit part */
+.mySlides {
+  display: none;
+}
+
+
+@media (max-width: 1024px) {
+  .mySlides {
+    width: 65vw;
+    height: 60vh;
+  }
+  .flex {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 1018px) {
+  .mySlides {
+    width: 60vw;
+    height: 60vh;
+  }
+  .flex {
+    padding: 0 5px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .mySlides {
+    width: 70vw;
+    height: 50vh;
+  }
+  .flex {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mySlides {
+    width: 70vw;
+    height: 40vh;
+  }
+  .flex {
+    padding: 0 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mySlides {
+    width: 76vw;
+    height: 35vh;
+  }
+  .w3-button {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .flex {
+    padding: 0;
+  }
+} 
+
+
+@media (max-width: 640px) {
+  #sale-parent{
+    margin: 0;
+    padding: 0;
+  }
+
+  #sale-child{
+    margin: 0;
+    width: 100%;
+  }
+  #nav-parent{
+    justify-content:center ;
+    margin: 0;
+  }
+  #nav-child{
+    width: 100%;
+  }
+
+}
