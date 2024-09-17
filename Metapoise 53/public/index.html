@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./responsive.css">
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="//unpkg.com/alpinejs" defer></script>
-</head>
-
-<body>
-
+    <script src="./unpkg.com/alpinejs" defer></script>
     <style>
         /* custom Cursor */
         body {
@@ -32,6 +28,10 @@
             /* Adjust as needed */
         }
     </style>
+</head>
+
+<body>
+
 
 
 
@@ -55,7 +55,7 @@
                         <span class="sr-only">Open main menu</span>
                     </button>
                     <div class="hidden lg:flex items-center space-x-10">
-                        <a href="/public/MenProduct.html"
+                        <a href="./MenProduct.html"
                             class="text-black hover:text-green-600 ease-in	 duration-100">Men</a>
                         <a href="#" class="text-black hover:text-green-600 ease-in	 duration-100">Women</a>
                         <a href="#" class="text-black hover:text-green-600 ease-in	 duration-100">Shoes</a>
@@ -89,7 +89,7 @@
             <!-- Mobile menu, hidden by default -->
             <div class="hidden lg:hidden mt-4" id="mobile-menu">
                 <div class="flex flex-col space-y-2">
-                    <a href="/public/MenProduct.html" class=" hover:text-green-600">MEN</a>
+                    <a href="./MenProduct.html" class=" hover:text-green-600">MEN</a>
                     <a href="#" class=" hover:text-green-600">Women</a>
                     <a href="#" class=" hover:text-green-600">SHOES</a>
                     <a href="#" class=" hover:text-green-600">WATCHES</a>
@@ -105,13 +105,13 @@
                 <div id="slider" class="slider">
                     <div class="slide  flex items-center justify-center">
                         <video class="h-[100vh] w-[100vw] object-cover" autoplay loop muted>
-                            <source src="/public/vid/video4.mp4" type="video/mp4">
+                            <source src="./vid/video4.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
                     <div class="slide  flex items-center justify-center text-white text-2xl">
                         <video class="h-[100vh] w-[100vw] object-cover" autoplay loop muted>
-                            <source src="/public/vid/video3.mp4" type="video/mp4">
+                            <source src="./vid/video3.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -216,9 +216,9 @@
 
 
     <!-- paragraph part -->
-    <div class="w-full h-[58vh]  pt-15  font-font2 text-white bg-stone-200  ">
+    <div class="w-full h-[58vh]  pt-15  font-font2 text-white bg-stone-200 ">
         <div class="w-full h-[50vh] bg-no-repeat  bg-cover leading-7	"
-            style="background-image: url('/public/assets/24Q3_AugustCore_Statement_Module_Site_Desktop_IMG_2880x720.avif') ">
+            style="background-image: url('./assets/24Q3_AugustCore_Statement_Module_Site_Desktop_IMG_2880x720.avif') ">
             <h1 class="text-center text-2xl pt-16 uppercase pb-10">We Make Better Things In A Better Way</h1>
             <p class="font-font1 text-xl text-center font-thin">By looking to the world’s greatest innovator—Nature—we
                 create shoes that deliver</p>
@@ -234,19 +234,19 @@
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <div class="py-10 xl:h-2/4">
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150 ease-in-out "
-                src="/public/assets/images/img1.avif" />
+                src="./assets/images/img1.avif" />
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150"
-                src="/public/assets/images/img2.avif" />
+                src="./assets/images/img2.avif" />
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150"
-                src="/public/assets/images/img3.avif" />
+                src="./assets/images/img3.avif" />
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150"
-                src="/public/assets/images/img4.avif" />
+                src="./assets/images/img4.avif" />
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150"
-                src="/public/assets/images/img5.avif" />
+                src="./assets/images/img5.avif" />
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150"
-                src="/public/assets/images/img6.avif" />
+                src="./assets/images/img6.avif" />
             <img class="mySlides w-[45vw] h-[85vh] rounded-xl hover:scale-[1.02] duration-150"
-                src="/public/assets/images/img1.avif" />
+                src="./assets/images/img1.avif" />
         </div>
 
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -258,7 +258,6 @@
 
     <!-- Kangkan shoes slider part -->
 
-    </head>
     <div class="bg-gray-100 flex items-center justify-center min-h-screen p-6">
 
         <div id="abc" x-data="swipeCards()" x-init="
@@ -397,7 +396,7 @@
         </div>
     </footer>
 
-    <script src="/src/js/script.js"></script>
+    <script src="../src/js/script.js"></script>
 </body>
 
 </html>
