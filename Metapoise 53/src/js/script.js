@@ -61,7 +61,7 @@ function swipeCards() {
               title: 'Cocktail',
               description: 'Tropical mix of flavors, perfect for parties.',
               price: 1899,
-              link: 'https://lqrs.com'
+              link: './index.html'
           },
           {
               id: 2,
@@ -69,7 +69,7 @@ function swipeCards() {
               title: 'Smoothie',
               description: 'Refreshing blend of fruits and yogurt.',
               price: 1549,
-              link: 'https://lqrs.com'
+              link: './index.html'
           },
           {
               id: 3,
@@ -77,7 +77,7 @@ function swipeCards() {
               title: 'Iced Coffee',
               description: 'Cold brewed coffee with a hint of vanilla.',
               price: 1499,
-              link: 'https://lqrs.com'
+              link: './index.html'
           },
           {
               id: 4,
@@ -85,7 +85,7 @@ function swipeCards() {
               title: 'Mojito',
               description: 'Classic Cuban cocktail with mint and lime.',
               price: 1799,
-              link: 'https://lqrs.com'
+              link: './index.html'
           },
           {
               id: 5,
@@ -93,7 +93,7 @@ function swipeCards() {
               title: 'Matcha Latte',
               description: 'Creamy green tea latte, rich in antioxidants.',
               price: 1649,
-              link: 'https://lqrs.com'
+              link: './index.html'
           },
           {
               id: 6,
@@ -101,7 +101,7 @@ function swipeCards() {
               title: 'Fruit Punch',
               description: 'Sweet and tangy punch, bursting with fruity flavors.',
               price: 1399,
-              link: 'https://lqrs.com'
+              link: './index.html'
           },
           {
               id: 7,
@@ -109,7 +109,7 @@ function swipeCards() {
               title: 'Bubble Tea',
               description: 'Chewy tapioca pearls in a sweet milk tea base.',
               price: 1499,
-              link: 'https://lqrs.com'
+              link: './index.html'
           }
       ],
       addToCart(product) {
